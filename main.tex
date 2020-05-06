@@ -1,0 +1,87 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[brazilian]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+% \usepackage{amsmath}
+% \usepackage{amsthm}
+% \usepackage{amsfonts}              % if you want the fonts
+% \usepackage{amssymb}
+% \usepackage{url}
+
+\usepackage[pdftex]{graphicx}
+\usepackage{subfigure}
+
+\usepackage[portuguese,ruled,lined]{algorithm2e}
+\usepackage{algorithmic}
+
+% \usepackage{tikz}
+
+% Please add the following required packages to your document preamble:
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{lscape}
+
+\usepackage{enumerate}
+
+
+%% Pacote Matemático para Teoremas, Corolários, provas e definições
+%% Ver <https://www.overleaf.com/learn/latex/theorems_and_proofs>
+\usepackage{amsthm}
+\usepackage{amsmath}
+% \usepackage{amsfonts}              % if you want the fonts
+\usepackage{amssymb}
+
+\newtheorem{theorem}{Teorema}
+\newtheorem{lemma}{Lema}
+\newtheorem{corolario}{Corolário}
+
+
+%% ------------------------------------------------------------------- %%
+%%              CONFIGURAÇÕES PESSOAIS DE FORMATAÇÃO
+
+\setlength{\parindent}{4em} %% indentação do parágrafo
+\setlength{\parskip}{1em}   %% espaçamento do parágrafo
+
+
+\addtolength{\oddsidemargin}{-.5in}
+\addtolength{\evensidemargin}{-.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1in}
+
+%% Para maiores informações ver
+%% https://www.overleaf.com/learn/latex/Paragraph_formatting
+%% http://conteudo.icmc.usp.br/pessoas/frasson/latex/curso-latex-3.pdf
+
+
+%% ------------------------------------------------------------------- %%
+%%                      ORGANIZAÇÃO DO DOCUMENTO
+% Para redação dos relatórios será utilizado este mesmo projeto\template no Overleaf.
+% Cada relatório conterá o seu próprio arquivo no diretório relatórios.
+% O diretório figuras contém as figuras utilizadas que serão compartilhadas entre os relatórios
+% O diretório capítulos contém algumas anotações sobre assuntos específicos.
+
+%% ------------------------------------------------------------------- %%
+%%                      INÍCIO DOCUMENTO
+% \title{Títulos devem ser discriminados no arquivo do relatorio}
+
+% \author{Giliard Almeida de Godoi \\ \small{giliard.godoi@gmail.com}}
+% \date{Novembro de 2019}
+
+
+\begin{document}
+
+    %\input{relatorios/01-introducao-ao-problema}
+    % \input{relatorios/02-revisao-bibliografia}
+    \input{relatorios/template}
+
+
+
+    \bibliographystyle{plain}
+    % \bibliographystyle{amsalpha}
+    % \bibliographystyle{amsplain}
+    % \bibliographystyle{acm}
+    \bibliography{referencias/bibliografia}
+
+\end{document}
