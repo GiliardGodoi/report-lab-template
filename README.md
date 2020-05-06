@@ -4,6 +4,7 @@ Instruções gerais sobre a organização da escrita de relatório no Overleaf.
 
 Os diretórios e arquivos foram estruturados de maneira a organizar em um único projeto do Overleaf a escrita diversos relatórios conforme a necessidade.
 
+```
 .\project
     .\figuras               # -> todas as figuras vão nesta pasta
         .\relatorio01       # -> as figuras de cada relatório são organizadas em subpastas
@@ -25,8 +26,8 @@ Os diretórios e arquivos foram estruturados de maneira a organizar em um único
     algorithm2e.sty         # arquivo necessário para a customização do pacote para escrita de algoritmos
     main.tex                # Arquivo inicial que fará referência a qual arquivo queremos importar
                             # para imprimir e trabalhar com um relatório específico é necessário referênciar o arquivo do relatório
-                            # no arquivo main.tex como o comando \input{relatorios/nome-do-arquivo}
-                            
+                            # no arquivo main.tex como o comando \input{relatorios/nome-do-arquivo}                         
+```
 
 ## Dica para nomeação de labels
 
